@@ -10,7 +10,7 @@ numbers = []
 # Acum adaugă numerele de la 1 la 5 în lista `numbers`
 
 # CODUL TĂU VINE MAI JOS:
-numbers = [5,4,3,2,1]
+numbers = [1, 2, 3, 4, 5]
 # CODUL TĂU VINE MAI SUS:
 
 # Acum afișează lista `numbers`
