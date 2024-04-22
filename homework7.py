@@ -3,7 +3,7 @@
 # Creați o variabilă numită number și atribuiți-i o valoare întreagă.
 
 # CODUL TĂU VINE MAI JOS:
-number = 19
+number = 10
 # CODUL TĂU VINE MAI SUS:
 
 # Folosind o instrucțiune condițională, verificați dacă numărul este pozitiv și afișați un mesaj corespunzător.
@@ -30,44 +30,52 @@ if number % 2 != 0:
 # Creați o variabilă text și atribuiți-i un șir de caractere.
 
 # CODUL TĂU VINE MAI JOS:
-text= "hello world"
+text = "hello world"
 # CODUL TĂU VINE MAI SUS:
-
-# Folosind o instrucțiune condițională, verificați dacă textul conține cuvântul "Python" și afișați un mesaj corespunzător.
+'''
+Folosind o instrucțiune condițională, verificați dacă textul
+conține cuvântul "Python" și afișați un mesaj corespunzător.
+'''
 
 # CODUL TĂU VINE MAI JOS:
 if "phyton" in text:
     print("a fost gasit")
 else:
-     print("nu a fost")
+    print("nu a fost")
 # CODUL TĂU VINE MAI SUS:
 
-# Folosind o instrucțiune condițională, verificați dacă textul conține cuvântul "Java" și afișați un mesaj corespunzător.
+''' Folosind o instrucțiune condițională, verificați dacă textul conține cuvântul
+ "Java" și afișați un mesaj corespunzător.
+'''
 
 # CODUL TĂU VINE MAI JOS:
 if "java" in text:
     print("a fost gasit")
 else:
-     print("nu a fost")
+    print("nu a fost")
 # CODUL TĂU VINE MAI SUS:
 
-# Folosind o instrucțiune condițională, verificați dacă textul conține cuvântul "Python" și afișați un mesaj corespunzător.
+''' Folosind o instrucțiune condițională, verificați dacă textul conține cuvântul "Python" și afișați
+un mesaj corespunzător.
 # în cazul în care nu conține, verificați dacă conține cuvântul "Java" și afișați un mesaj corespunzător.
 # Dacă nu conține niciunul dintre ele, afișați un mesaj corespunzător.
-
+'''
 # CODUL TĂU VINE MAI JOS:
 if "phyton" in text:
     print("a fost gasit phyton")
 elif "java" in text:
-   print("a fost gasit java")
+    print("a fost gasit java")
 else:
     print("nu a fost gasit nimic")
+
 # CODUL TĂU VINE MAI SUS:
 
-# Folosind o instrucțiune condițională, verificați dacă textul conține cuvântul "Python" și cuvântul "Java" și afișați un mesaj corespunzător.
+'''
+# Folosind o instrucțiune condițională, verificați dacă textul conține cuvântul "Python" și cuvântul
+"Java" și afișați un mesaj corespunzător.
 # În cazul în care conține doar unul dintre ele, afișați un mesaj corespunzător.
 # Dacă nu conține niciunul dintre ele, afișați un mesaj corespunzător.
-
+'''
 # CODUL TĂU VINE MAI JOS:
 if "Python" in text and "Java" in text:
     print("Textul conține atât 'Python' cât și 'Java'.")
@@ -102,4 +110,5 @@ elif number == 5:
     print("cinci")
 else:
     print("numarul nu este intre 1 si 5")
-# CODUL TĂU VINE MAI SUS:
+
+# CODUL TĂU VINE MAI SUS
