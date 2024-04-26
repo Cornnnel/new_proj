@@ -112,3 +112,14 @@ else:
     print("numarul nu este intre 1 si 5")
 
 # CODUL TĂU VINE MAI SUS
+
+def multiplicator(factor):
+    def inmulteste_cu_factor(n):
+        return n * factor
+    return inmulteste_cu_factor
+
+duplare = multiplicator(2)
+triplare = multiplicator(3)
+
+print(duplare(5))
+print(triplare(5))
